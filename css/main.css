@@ -18,6 +18,10 @@ h2 {
   margin-top: 0;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 img {
   width: 100%;
   display: block;
