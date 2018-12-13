@@ -1,76 +1,73 @@
 html {
-  box-sizing: border-box;
   background-color: #eee9de;
-  font-family: Lato, sans-serif;
+  box-sizing: border-box;
   line-height: 1.5;
 }
 
 h1 {
+  margin: 0;
   font-family: Lato, bold;
   font-size: 1.5rem;
   vertical-align: middle;
-  margin: 0;
 }
 
 h2 {
-  font-weight: bold;
   color: #333;
   margin-top: 0;
+  font-weight: bold;
 }
 
-body {
-  background-color: #eee9de;
-  text-align: center;
-  margin: 0;
+div {
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+  padding: 1em;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
-  display: block;
-}
-
-[class="image"]{
-  display: inline-block;
-  max-width: 25em;
-  vertical-align: middle;
-  padding: 1em;
-}
-
-.text {
-  display: inline-block;
+div:nth-of-type(2) {
   text-align: left;
-  max-width: 25em;
-  padding: 1em;
-  vertical-align: middle;
 }
 
-section {
-  padding: 2em 0;
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  color: #333;
+  border-style: solid;
+  padding: .6em;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.1rem;
 }
 
 p {
+  font-weight: bold;
   line-height: 1.5;
   text-align: left;
 }
 
-.btn {
-  color: #666;
-  padding: .4em .75em .5em;
-  border: 3px solid #333;
-  display: inline-block;
-  font-family: Lato, sans-serif;
-  border-radius: 8px;
-  vertical-align: center;
+section {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
-div {
-  max-width: 25em;
-  padding: 1em;
-  text-align: left;
-  vertical-align: middle;
-  display: inline-block;
+a:hover {
+  color: #eee9de;
+  background-color: #666;
 }
